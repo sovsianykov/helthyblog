@@ -25,7 +25,10 @@ nav {
       font-size: 40px;
       color: color('darker');
       span {
-        color: #ee8c0b;
+        color: darkred;
+      }
+      h3  {
+        font-size: 1.2rem;
       }
     }
 
@@ -51,23 +54,81 @@ nav {
       padding: 0 10px;
 
       a {
+        position: relative;
         display: block;
         height: 30px;
         padding-bottom: 5px ;
         margin-top: auto;
         margin-bottom: 10px;
-        font-size: 1.1rem;
-        font-weight: 600;
-        letter-spacing: .05rem;
-        transition: .4s  ease-in;
-        border-radius: 5px;
-        border: 3px solid rgba(210, 53, 13, 0);
+        font-size: 1.3rem;
+        letter-spacing: .08rem;
+        $anime: #130d0d;
+        color: $anime;
+        line-height: 30px;
+        overflow: hidden;
 
-        &:hover  {
-          color: #063648;
-          border-top: 3px solid #ee8c0b;
+
+
+
+        &:after  {
+          content: "";
+          @extend a;
+          //background: linear-gradient( 90deg, #e7decd, #78c2ee);
+          background: url("../img/button.jpg")   ;
+          background-size: cover;
+          position: relative;
+          top: -30px;
+          //transition: 3s ease-in-out;
+          //z-index: -1;
+          width: 100%;
+          //left: 100px;
+
+          $i:0;
+          animation: animate2 2s forwards ease-in-out ;
+          animation-iteration-count: $i;
+          opacity: 0;
+
+
+          @keyframes animate2 {
+            1% {
+              left: 0;
+              opacity: 0;
+              $anime: #130d0d;
+            }
+
+            2% {
+              opacity:0;
+              left: -150%;
+
+            }
+            15% {
+              left: -150%;
+              opacity: 1;
+              $anime: #ffffff;
+
+
+            }
+
+            100% {
+              left: 0;
+              opacity: 0;
+              $anime: #130d0d;
+
+
+            }
+
+
+          }
 
         }
+
+
+      &:hover {
+        color: #b81818;
+        //color: white;
+
+        animation-iteration-count: infinite;
+      }
       }
     }
 
@@ -137,3 +198,7 @@ section#home {
 
   }
 }
+
+
+
+

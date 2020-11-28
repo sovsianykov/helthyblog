@@ -6,7 +6,7 @@ $colors: (
         light: #d8d8d8,
         lighter: #f5fcfc,
         special : #ee8c0b,
-        extra : #f80909
+        extra : #f80909,
 );
 @function color($key) {
   @if map-has-key($colors, $key) {
