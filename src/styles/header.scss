@@ -198,6 +198,14 @@ section#home {
       letter-spacing: .1rem;
       margin-bottom: 20px;
     }
+      .comments {
+        display: flex;
+        height: 30px;
+        align-items: center;
+        justify-content: space-around;
+        width: 300px
+      ;
+      }
 
   }
 }
