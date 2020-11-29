@@ -70,6 +70,8 @@ nav {
 
 
 
+
+
         &:after  {
           content: "";
           @extend a;
@@ -175,12 +177,13 @@ header  {
 }
 section#home {
   position: relative;
+  width: 70%;
   top: 300px;
   margin-top: 20px;
   z-index: -1;
   article {
     z-index: -1;
-    width: 70%;
+    width: 100%;
     margin-top: 30px;
     padding: 30px ;
     display: flex;
