@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="54c705c2-0d8e-4067-b4e4-3f90d7292ac3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -8,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1ks8S8PhW7N6TJVo74gbcVFo9xh" />
   <component name="ProjectLevelVcsManager">
@@ -27,12 +49,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build" />
+      <recent name="$PROJECT_DIR$/src/fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\HelthyBlog\src\img" />
     </key>
@@ -48,15 +78,24 @@
       <workItem from="1606477937262" duration="14124000" />
       <workItem from="1606492464471" duration="398000" />
       <workItem from="1606492881131" duration="1090000" />
-      <workItem from="1606586954094" duration="107000" />
-      <workItem from="1606587107727" duration="13157000" />
-      <workItem from="1606638949505" duration="1419000" />
-      <workItem from="1606641522267" duration="740000" />
+      <workItem from="1606504813482" duration="10307000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -66,9 +105,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606480289949" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606587045947">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1419" height="200" key="GridCell.Tab.0.bottom" timestamp="1606504876396">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606587045947" />
+    <state width="1419" height="200" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1606504876396" />
+    <state width="1419" height="200" key="GridCell.Tab.0.center" timestamp="1606504876395">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state width="1419" height="200" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1606504876395" />
+    <state width="1419" height="200" key="GridCell.Tab.0.left" timestamp="1606504876393">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state width="1419" height="200" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1606504876393" />
+    <state width="1419" height="200" key="GridCell.Tab.0.right" timestamp="1606504876395">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state width="1419" height="200" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1606504876395" />
+    <state x="144" y="91" key="MergeDialog" timestamp="1606644275218">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="144" y="91" key="MergeDialog/0.25.1440.807@0.25.1440.807" timestamp="1606644275218" />
+    <state x="524" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606644259804">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="524" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.807@0.25.1440.807" timestamp="1606644259804" />
+    <state x="385" y="156" width="670" height="676" key="search.everywhere.popup" timestamp="1606518434119">
+      <screen x="0" y="25" width="1440" height="807" />
+    </state>
+    <state x="385" y="156" width="670" height="676" key="search.everywhere.popup/0.25.1440.807@0.25.1440.807" timestamp="1606518434119" />
   </component>
 </project>

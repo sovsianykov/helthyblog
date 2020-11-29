@@ -103,7 +103,7 @@ nav {
               left: -150%;
 
             }
-            15% {
+            10% {
               left: -150%;
               opacity: 1;
               $anime: #ffffff;
@@ -175,6 +175,9 @@ header  {
 
 }
 }
+#home1 {
+  display: flex;
+}
 section#home {
   position: relative;
   width: 70%;
@@ -185,29 +188,59 @@ section#home {
     z-index: -1;
     width: 100%;
     margin-top: 30px;
-    padding: 30px ;
+    padding: 30px 30px 0 30px  ;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
     border: 3px solid #d3d3d3;
     h2 {
-      font-family: 'MontserratM';
+      font-family: Helvetica ;
       font-weight: 600;
       font-size: 1.8rem;
-      letter-spacing: .1rem;
+      letter-spacing: .05rem;
       margin-bottom: 20px;
     }
+
       .comments {
         display: flex;
-        height: 30px;
+        height: 45px;
         align-items: center;
         justify-content: space-around;
-        width: 300px
-      ;
+        width: 450px;
+        font-family: MontserratM, sans-serif;
+        font-weight: 600;
+        font-size: .9rem;
+        color: #837a7a;
+        i {
+          font-size: 1.2rem;
+          padding-right: 10px;
+        }
+
+
       }
 
   }
+}
+aside {
+  position: fixed;
+  left: 75%;
+  top: 380px;
+  margin-left: 5%;
+  width: 25%;
+  padding: 10px 10px 0 10px  ;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  border: 3px solid #d3d3d3;
+   article.news {
+     .asideImg {
+       width: 90%;
+       height: 100px;
+     }
+   }
+
 }
 
 
