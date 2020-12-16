@@ -18,6 +18,9 @@ nav {
     //flex-direction: column
     background: white;
 
+    position: relative;
+
+
   #logo {
     h2 {
       font-family: "MontserratB";
@@ -86,7 +89,7 @@ nav {
           //left: 100px;
 
           $i:0;
-          animation: animate2 2s forwards ease-in-out ;
+          animation: animate2 1s forwards ease-in-out ;
           animation-iteration-count: $i;
           opacity: 0;
 
@@ -138,6 +141,7 @@ nav {
 
   }
     }
+
 }
 }
 header  {
@@ -147,6 +151,20 @@ header  {
   background: url("../img/blueBg.jpeg");
   position: fixed;
   text-align: center;
+  aside#aside_home {
+    z-index: 5;
+    position: relative;
+    margin: 0 auto;
+    left: 350px;
+    top: 60px;
+    width: 200px;
+    height: 400px;
+    border: 3px solid #d3d3d3;
+    form {
+
+    }
+
+  }
  h1 {
    color: #f6f6f6;
 
@@ -174,16 +192,18 @@ header  {
 
 
 }
+
 }
 #home1 {
   display: flex;
-}
+
 section#home {
   position: relative;
   width: 70%;
   top: 300px;
   margin-top: 20px;
   z-index: -1;
+
   article {
     z-index: -1;
     width: 100%;
@@ -207,41 +227,53 @@ section#home {
         height: 45px;
         align-items: center;
         justify-content: space-around;
-        width: 450px;
+        width: 490px;
         font-family: MontserratM, sans-serif;
         font-weight: 600;
         font-size: .9rem;
         color: #837a7a;
+
+
         i {
           font-size: 1.2rem;
           padding-right: 10px;
         }
+        button.btn {
+          border: none;
+          background: none;
+          color: #474747;
+
+          width: 160px;
+          padding: 0;
+          transition: .6s ease-in-out;
+
+
+
+
+
+        }
 
 
       }
+    .comments__post {
+      border: 3px solid #d3d3d3;
+      margin: 0 10px 10px 10px;
+      padding: 0 10px ;
+
+
+    }
 
   }
-}
-aside {
-  position: fixed;
-  left: 75%;
-  top: 380px;
-  margin-left: 5%;
-  width: 25%;
-  padding: 10px 10px 0 10px  ;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  border: 3px solid #d3d3d3;
-   article.news {
-     .asideImg {
-       width: 90%;
-       height: 100px;
-     }
-   }
+
+
+
 
 }
+
+
+}
+
+
 
 
 
