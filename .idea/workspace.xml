@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54c705c2-0d8e-4067-b4e4-3f90d7292ac3" name="Default Changelist" comment="forum">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_16_2020_10_12_AM_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_16_2020_10_12_AM__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/picturs/carrots.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/picturs/garlic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/picturs/hren.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="54c705c2-0d8e-4067-b4e4-3f90d7292ac3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
@@ -59,12 +52,33 @@
       <workItem from="1606587107727" duration="13157000" />
       <workItem from="1606638949505" duration="1419000" />
       <workItem from="1606641522267" duration="740000" />
-      <workItem from="1608132006545" duration="5031000" />
+      <workItem from="1608132006545" duration="5453000" />
+      <workItem from="1608216024042" duration="2673000" />
     </task>
+    <task id="LOCAL-00001" summary="forum">
+      <created>1608137781577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608137781577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
